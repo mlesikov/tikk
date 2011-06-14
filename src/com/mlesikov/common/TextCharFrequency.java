@@ -1,14 +1,14 @@
-package com.mlesikov.textanalyzing;
+package com.mlesikov.common;
 
 /**
  * Describes how what is the frequency of the char
  * Created by Mihail Lesikov.
  */
-public class CharFrequency {
+public class TextCharFrequency {
     private Character character;
     private Double frequencyPercent;
 
-    public CharFrequency(Character character, double frequencyPercent) {
+    public TextCharFrequency(Character character, double frequencyPercent) {
 
         this.character = character;
         this.frequencyPercent = frequencyPercent;
