@@ -1,6 +1,5 @@
 package com.mlesikov.textanalyzing;
 
-import com.mlesikov.common.TextCharFrequency;
 import com.mlesikov.common.SortsTextCharFrequencyList;
 
 import java.text.DecimalFormat;

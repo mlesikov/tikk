@@ -1,4 +1,4 @@
-package com.mlesikov.common;
+package com.mlesikov.textanalyzing;
 
 /**
  * Describes how what is the frequency of the char

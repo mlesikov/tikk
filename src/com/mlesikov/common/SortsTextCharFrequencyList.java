@@ -1,5 +1,7 @@
 package com.mlesikov.common;
 
+import com.mlesikov.textanalyzing.TextCharFrequency;
+
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;

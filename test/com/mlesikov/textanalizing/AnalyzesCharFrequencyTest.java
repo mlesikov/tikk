@@ -1,6 +1,6 @@
 package com.mlesikov.textanalizing;
 
-import com.mlesikov.common.TextCharFrequency;
+import com.mlesikov.textanalyzing.TextCharFrequency;
 import com.mlesikov.textanalyzing.AnalyzesTextCharsFrequency;
 import org.junit.Test;
 
