@@ -39,6 +39,7 @@ public class HuffmanCoderTest {
         String decodedText = decoder.decode(code);
 
         assertEquals("hm, decoded text is not same as original text!", text, decodedText);
+        printPercentsImprovement(code, text);
     }
 
     @Test
@@ -52,6 +53,14 @@ public class HuffmanCoderTest {
         String decodedText = decoder.decode(code);
 
         assertEquals("hm, decoded text is not same as original text!", text, decodedText);
+        printPercentsImprovement(code, text);
+    }
+
+    private void printPercentsImprovement(String code, String text) {
+        System.out.println("text bytes : " + this.text.length());
+        System.out.println("code bytes : " + code.length() / 8);
+        double percents = ((double) (code.length() / 8) / (double) this.text.length()) * 100;
+        System.out.println("improved : " + (100d - percents) + "%");
     }
 
 
