@@ -14,7 +14,6 @@ public class HuffmanCoder {
         this.codesMap = codesMap;
     }
 
-
     public String code() {
         String codedText = "";
 
